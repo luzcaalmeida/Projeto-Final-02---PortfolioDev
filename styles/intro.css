@@ -1,0 +1,55 @@
+header {
+  background-image: url(/assets/Background_Intro.png);
+  background-size: cover;
+  height: 750px;
+
+  padding: 120px 163px;
+}
+
+#divprofile {
+  margin-inline: auto;
+  width: 1040px;
+
+  #sec-profile {
+    margin: auto;
+    display: flex;
+    width: 680px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+
+    #codeico {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      flex-shrink: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    .circular-image {
+      position: relative;
+      width: 112px; /* Ajuste o tamanho conforme necessário */
+      height: 112px; /* Ajuste o tamanho conforme necessário */
+      border-radius: 50%;
+      border: 2px solid var(--color-red); /* Cor e espessura da borda */
+    }
+
+    .circular-image img {
+      border-radius: 50%;
+      padding: 4px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #profinfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h1 {
+        margin-block: 8px 20px;
+      }
+    }
+  }
+}
