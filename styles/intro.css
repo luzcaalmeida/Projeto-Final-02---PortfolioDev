@@ -1,9 +1,7 @@
 header {
-  background-image: url(/assets/Background_Intro.png);
-  background-size: cover;
-  height: 750px;
-
-  padding: 120px 163px;
+  background: url(/assets/Background_Intro.png) lightgray 50% / cover no-repeat;
+  padding: 120px 163px 57px;
+  width: 100%;
 }
 
 #divprofile {
@@ -11,7 +9,7 @@ header {
   width: 1040px;
 
   #sec-profile {
-    margin: auto;
+    margin-inline: auto;
     display: flex;
     width: 680px;
     flex-direction: column;
@@ -20,11 +18,11 @@ header {
 
     #codeico {
       position: absolute;
-      width: 32px;
+      width: 48px;
       height: 32px;
-      flex-shrink: 0;
       bottom: 0;
       right: 0;
+      object-fit: cover;
     }
 
     .circular-image {
@@ -52,4 +50,36 @@ header {
       }
     }
   }
+}
+
+#tagsicon {
+  margin-block: 80px 94px;
+  display: flex;
+  justify-content: center;
+
+  gap: 16px;
+
+  .tags {
+    padding: 8px 16px;
+    border-radius: 999px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    background-color: var(--gray-300);
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  a {
+    font: var(--text-md);
+  }
+}
+
+#arrowdown {
+  text-align: center;
 }
