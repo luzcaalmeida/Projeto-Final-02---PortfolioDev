@@ -87,6 +87,10 @@ footer {
     align-items: center;
     gap: 16px;
   }
+  a:hover {
+    border: 1px solid var(--color-blue);
+
+  }
 }
 
 .txtmd {
@@ -94,6 +98,7 @@ footer {
 }
 
 .divlinks {
+  border: 1px solid var(--gray-300);
   display: flex;
   align-items: center;
   gap: 12px;
