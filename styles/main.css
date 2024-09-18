@@ -76,7 +76,7 @@ main {
 }
 
 footer {
-  background: url(/assets/Background_Intro.png) lightgray 50% / cover no-repeat;
+  background: url(/assets/bgfooter.png) lightgray 50% / cover no-repeat;
   width: 100%;
   padding: 128px 120px 200px 120px;
 
@@ -89,7 +89,6 @@ footer {
   }
   a:hover {
     border: 1px solid var(--color-blue);
-
   }
 }
 
