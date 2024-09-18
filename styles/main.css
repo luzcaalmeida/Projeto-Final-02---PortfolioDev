@@ -76,7 +76,8 @@ main {
 }
 
 footer {
-  background: url(/assets/bgfooter.png) lightgray 50% / cover no-repeat;
+  background: url(https://raw.githubusercontent.com/luzcaalmeida/Projeto-Final-02---PortfolioDev/bf5f56b1473d813e039869068727f00f13743175/assets/bgfooter.png)
+    lightgray 50% / cover no-repeat;
   width: 100%;
   padding: 128px 120px 200px 120px;
 
